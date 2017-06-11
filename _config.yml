@@ -4,7 +4,7 @@ subtitle: by KAMSC
 email: contact@kamsconline.com
 description: A Bl0g by the students at the Kalamazoo Area Mathematics and Science Center, Kalamazoo, Michigan.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://kamsc.github.io/blog/" # the base hostname & protocol for your site
+url: "https://kamsc.github.io/blog" # the base hostname & protocol for your site
 author: KAMSC Students
 street_address: 600 West Vine Street Suite 400
 city: Kalamazoo
