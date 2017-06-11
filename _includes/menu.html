@@ -9,7 +9,7 @@
 	    	{% endif %}
 		{% endfor %}
 		{% for page in site.pages %}
-		  	{% if page.layout != "home" %}
+		  	{% if page.layout != "home" and page.title %}
 				{% unless page.show_in_nav == false %}
 		    	<li {% if current_page == page.url %} class="active"{% endif %}><a href="{{ page.url | absolute_url | prepend: site.github.url }}">2{{ page.title }}</a></li>
 				{% endunless %}
