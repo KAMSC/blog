@@ -1,0 +1,32 @@
+# site settings
+title: Bl0g
+subtitle: by KAMSC
+email: contact@kamsconline.com
+description: A Blog by the students at the Kalamazoo Area Mathematics and Science Center, Kalamazoo, Michigan.
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+author: KAMSC Students
+street_address: 600 West Vine Street Suite 400
+city: Kalamazoo
+state: MI
+zip_code: 49008
+country: United States of America
+phone: (269) 337-0004
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+pinterest_url:
+slack_url:
+twitter_url:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
