@@ -7,4 +7,4 @@ comments: true
 ---
 It's going to be an amazing year with this bl0g!
 
-You are free to write anything you like on this bl0g. Just go ahead and email your content to any of the following emails: <a href="mailto:green1139@gmail.com">green1139@gmail.com</a>
+You are free to write anything you like on this bl0g. Just go ahead and email your content to any of the following emails: <a href="mailto:kamscblog@icloud.com">kamscblog@icloud.com</a>.

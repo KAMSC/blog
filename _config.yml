@@ -1,7 +1,7 @@
 # site settings
 title: Bl0g
 subtitle: by KAMSC
-email: contact@kamsconline.com
+email: kamscblog@icloud.com
 description: A Bl0g by the students at the Kalamazoo Area Mathematics and Science Center, Kalamazoo, Michigan.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kamsc.github.io/blog/" # the base hostname & protocol for your site
@@ -23,7 +23,7 @@ instagram_url:
 linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url:
+twitter_url: https://twitter.com/_KAMSC_
 
 # build settings
 markdown: kramdown
