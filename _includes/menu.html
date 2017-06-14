@@ -11,7 +11,7 @@
 		{% for page in site.pages %}
 		  	{% if page.layout != "home" and page.title %}
 				{% unless page.show_in_nav == false %}
-		    	<li {% if current_page == page.url %} class="active"{% endif %}><a href="{{ "{{site.github.url}}" | page.url}}">{{ page.title }}</a></li>
+		    	<li {% if current_page == page.url %} class="active"{% endif %}><a href="{{ page.url }}">{{ page.title }}</a></li>
 				{% endunless %}
 		    {% endif %}
 		{% endfor %}
