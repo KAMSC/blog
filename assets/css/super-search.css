@@ -27,8 +27,8 @@ MIT Licensed
 .search-btn {
 	fill: #DDD;
 	position: absolute;
-	right: 10px;
-	top: 15px;
+	left: 10px;
+	top: 40px;
 	z-index: 1;
 }
 #search-box {
