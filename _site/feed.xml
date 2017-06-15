@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>A Bl0g by the students at the Kalamazoo Area Mathematics and Science Center, Kalamazoo, Michigan.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Thinking About Summer?</title>
+        <description>&lt;p&gt;It’s been only four days since KAMSC got over! What have you been up to for the past few days? Have you already planned everything for Summer 2k17 yet? Or, what have you planned out already? Anything cra2y, fun, exc1ting, j0yous, awes0m3, or all of the above?&lt;/p&gt;
+
+&lt;p&gt;Don’t forget to share your ideas in the comments section below.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Jun 2017 00:00:00 -0400</pubDate>
+        <link>//2017/06/13/summer-plans.html</link>
+        <guid isPermaLink="true">//2017/06/13/summer-plans.html</guid>
+      </item>
+    
+      <item>
+        <title>Welcome! Post</title>
+        <description>&lt;p&gt;It’s going to be an amazing year with this bl0g!&lt;/p&gt;
+
+&lt;p&gt;You are free to write anything you like on this bl0g. Just go ahead and email your content to any of the following emails: &lt;a href=&quot;mailto:kamscblog@icloud.com&quot;&gt;kamscblog@icloud.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Jun 2017 00:00:00 -0400</pubDate>
+        <link>//2017/06/11/welcome-post.html</link>
+        <guid isPermaLink="true">//2017/06/11/welcome-post.html</guid>
+      </item>
+    
+  </channel>
+</rss>
