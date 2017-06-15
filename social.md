@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Social Media and Resources
+title: Resources
 description: Find all of the social media accounts and websites for KAMSC classes, organizations, and activities
 ---
 <h2>Instagram</h2>
