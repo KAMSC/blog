@@ -4474,3 +4474,84 @@
 		}
 
 	}
+	#search {
+<<<<<<< HEAD
+  		/* This bit sets up the horizontal layout */
+  		/*display:flex;
+  		flex-direction:row;*/
+  		/* This bit draws the box around it */
+  		border: 2px solid #eeeeee;
+  		padding: 2px;
+=======
+		/* This bit sets up the horizontal layout */
+		display:flex;
+		flex-direction:row;
+		/* This bit draws the box around it */
+		border: 2px solid #eeeeee;
+		padding: 2px;
+		width: 100%;
+>>>>>>> 7a5761700df5e26875c9de8358c55fda36f28cd0
+	}
+	#navPanel #search {
+		border: 2px solid #bbbbbb;
+	}
+	#search:hover, #search:active {
+		border: 2px solid #18bfef !important;
+	}
+	#navPanel #search:hover, #search:active {
+		border: 2px solid #212931 !important;
+	}
+	#search-box {
+<<<<<<< HEAD
+  		/* Tell the input to use all the available space */
+  		/*flex-grow:2;*/
+  		/* And hide the input's outline, so the form looks like the outline */
+  		/*border:none;
+		height: 50px;*/
+		margin-top: 20px;
+=======
+		/* Tell the input to use all the available space */
+		flex-grow:2;
+		/* And hide the input's outline, so the form looks like the outline */
+		border:none;
+		height: 50px;
+>>>>>>> 7a5761700df5e26875c9de8358c55fda36f28cd0
+		color: #eeeeee !important;
+	}
+	/*#navPanel #search-box {
+		color: #212931 !important;
+	}*/
+	.search-btn {
+		box-shadow: inset 0 0 0 2px #eeeeee;
+		/*padding: 0px;
+		height: 50px;*/
+		color: #eeeeee !important;
+<<<<<<< HEAD
+		/*padding: 2px;*/
+=======
+		padding: 2px;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-right: 5px;
+>>>>>>> 7a5761700df5e26875c9de8358c55fda36f28cd0
+		text-align: center;
+		outline: none;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	#navPanel #search-btn {
+		box-shadow: inset 0 0 0 2px #212931;
+		color: #212931 !important;
+	}
+	#search-btn:hover {
+  	box-shadow: inset 0 0 0 2px #18bfef !important;
+  	color: #18bfef !important;
+		outline: none;
+	}
+	input::placeholder {
+		color: #eeeeee !important;
+	}
+	#navPanel input::placeholder {
+		color: #bbbbbb !important;
+	}

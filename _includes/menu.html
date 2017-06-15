@@ -15,6 +15,9 @@
 				{% endunless %}
 		    {% endif %}
 		{% endfor %}
+		<li>
+			<a href="javascript:void(0)" onclick="superSearch.toggle()">Search</a>
+		</li>
 		</ul>
 		<ul class="icons">
 				{% if site.twitter_url %}
@@ -53,3 +56,11 @@
 
 <!-- Main -->
 <div id="main">
+	<div id="search">
+		<input type="text" id="search-box" name="search-box" placeholder="Search"/>
+		<button class="search-btn" onclick="superSearch.toggle()">
+			Close
+		</button>
+		<br />
+		<ul class="super-search__results" id="js-super-search__results"></ul>
+	</div>

@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/css/main.css" | relative_url }}" />
 	<noscript><link rel="stylesheet" href="/assets/css/noscript.css" | relative_url }}" /></noscript>
+	<link rel="stylesheet" href="/assets/css/super-search.css" | relative_url }}" />
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<!-- Start of StatCounter Code for Default Guide -->
 	<script type="text/javascript">
@@ -91,6 +92,9 @@
 				
 		    
 		
+		<li>
+			<a href="javascript:void(0)" onclick="superSearch.toggle()">Search</a>
+		</li>
 		</ul>
 		<ul class="icons">
 				
@@ -113,6 +117,14 @@
 
 <!-- Main -->
 <div id="main">
+	<div id="search">
+		<input type="text" id="search-box" name="search-box" placeholder="Search"/>
+		<button class="search-btn" onclick="superSearch.toggle()">
+			Close
+		</button>
+		<br />
+		<ul class="super-search__results" id="js-super-search__results"></ul>
+	</div>
 
 
             <!-- Post -->
@@ -211,6 +223,18 @@
 		<script src="/assets/js/skel.min.js" | absolute_url }}"></script>
 		<script src="/assets/js/util.js" | absolute_url }}"></script>
 		<script src="/assets/js/main.js" | absolute_url }}"></script>
+		<script src="/assets/js/super-search.js" | absolute_url }}"></script>
+		<script>superSearch({searchFile: 'https://kamsc.github.io/blog/feed.xml'});</script>
+		<script>
+		(function() {
+		    var url_string = document.location.href
+		    var url = new URL(url_string);
+		    var search = url.searchParams.get("search-box");
+		    console.log(search);
+		    document.getElementById("search-box").value = search
+		    handleInput();
+		})();
+		</script>
 
 
     </body>
