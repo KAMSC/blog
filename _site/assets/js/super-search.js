@@ -2,11 +2,10 @@
 Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
 */
-(function () {
-	var searchFile = '/feed.xml',
-		searchEl,
-		searchInputEl,
-		searchResultsEl,
+	var searchFile = 'https://kamsc.github.io/blog/feed.xml',
+		searchEl = document.getElementById("search"),
+		searchInputEl = document.getElementById("search-box"),
+		searchResultsEl = document.getElementById("js-super-search__results"),
 		currentInputValue = '',
 		lastSearchResultHash,
 		posts = [];
@@ -81,13 +80,13 @@ MIT Licensed
 			return;
 		}
 		searchResultsEl.style.offsetWidth;
-
 		var matchingPosts = posts.filter(function (post) {
 			// Search `description` and `content` both to support 1.0 and 2.0 formats.
 			if ((post.title + '').toLowerCase().indexOf(currentInputValue) !== -1 || ((post.description || post.content) + '').toLowerCase().indexOf(currentInputValue) !== -1) {
 				return true;
 			}
 		});
+		console.log(matchingPosts);
 		if (!matchingPosts.length) {
 			searchResultsEl.classList.add('is-hidden');
 		}
@@ -102,11 +101,11 @@ MIT Licensed
 		lastSearchResultHash = currentResultHash;
 	}
 
-	function init(options) {
-		searchFile = options.searchFile || searchFile;
-		searchEl = document.querySelector(options.searchSelector || '#js-super-search');
-		searchInputEl = document.querySelector(options.inputSelector || '#js-super-search__input');
-		searchResultsEl = document.querySelector(options.resultsSelector || '#js-super-search__results');
+	function init() {
+		searchFile = searchFile;
+		searchEl = document.querySelector('#search');
+		searchInputEl = document.querySelector("#search-box");
+		searchResultsEl = document.querySelector('#js-super-search__results');
 
 		var xmlhttp=new XMLHttpRequest();
 		xmlhttp.open('GET', searchFile);
@@ -140,5 +139,3 @@ MIT Licensed
 	init.toggle = toggleSearch;
 
 	window.superSearch = init;
-
-})();

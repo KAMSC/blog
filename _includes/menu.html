@@ -15,10 +15,9 @@
 				{% endunless %}
 		    {% endif %}
 		{% endfor %}
-		<div id="search">
-			<input type="text" id="search-box" name="search-box" placeholder="Search"/>
-			<input type="submit" id="search-btn" value="Search"/>
-		</div>
+		<li>
+			<a href="javascript:void(0)" onclick="superSearch.toggle()">Search</a>
+		</li>
 		</ul>
 		<ul class="icons">
 				{% if site.twitter_url %}
@@ -55,11 +54,13 @@
 		</ul>
 </nav>
 
-<div class="super-search" id="js-super-search">
- <a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn">X</a>
- <input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
- <ul class="super-search__results" id="js-super-search__results"></ul>
-</div>
-
 <!-- Main -->
 <div id="main">
+	<div id="search">
+		<input type="text" id="search-box" name="search-box" placeholder="Search"/>
+		<button class="search-btn" onclick="superSearch.toggle()">
+			Close
+		</button>
+		<br />
+		<ul class="super-search__results" id="js-super-search__results"></ul>
+	</div>

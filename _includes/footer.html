@@ -92,3 +92,13 @@
 		<script src="{{ "{{site.github.url}}/assets/js/main.js" | absolute_url }}"></script>
 		<script src="{{ "{{site.github.url}}/assets/js/super-search.js" | absolute_url }}"></script>
 		<script>superSearch({searchFile: 'https://kamsc.github.io/blog/feed.xml'});</script>
+		<script>
+		(function() {
+		    var url_string = document.location.href
+		    var url = new URL(url_string);
+		    var search = url.searchParams.get("search-box");
+		    console.log(search);
+		    document.getElementById("search-box").value = search
+		    handleInput();
+		})();
+		</script>
