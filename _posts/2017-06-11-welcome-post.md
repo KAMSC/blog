@@ -4,6 +4,7 @@ title: Welcome! Post
 description: Introduction of the KAMSC Bl0g
 image: assets/images/kamsc_bl0g_screenshot.png
 comments: true
+author: KAMSC Github Developers
 ---
 It's going to be an amazing year with this bl0g!
 
