@@ -4,7 +4,7 @@
     <title></title>
     <description>A Bl0g by the students at the Kalamazoo Area Mathematics and Science Center, Kalamazoo, Michigan.</description>
     <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Thinking About Summer?</title>
@@ -13,8 +13,8 @@
 &lt;p&gt;Don’t forget to share your ideas in the comments section below.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jun 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000//2017/06/13/summer-plans.html</link>
-        <guid isPermaLink="true">http://localhost:4000//2017/06/13/summer-plans.html</guid>
+        <link>//2017/06/13/summer-plans.html</link>
+        <guid isPermaLink="true">//2017/06/13/summer-plans.html</guid>
       </item>
     
       <item>
@@ -24,8 +24,8 @@
 &lt;p&gt;You are free to write anything you like on this bl0g. Just go ahead and email your content to any of the following emails: &lt;a href=&quot;mailto:kamscblog@icloud.com&quot;&gt;kamscblog@icloud.com&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 11 Jun 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000//2017/06/11/welcome-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000//2017/06/11/welcome-post.html</guid>
+        <link>//2017/06/11/welcome-post.html</link>
+        <guid isPermaLink="true">//2017/06/11/welcome-post.html</guid>
       </item>
     
   </channel>
