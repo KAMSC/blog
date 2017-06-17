@@ -38,6 +38,7 @@
                 <header>
                     <span class="date">{{ post.date | date: "%B %-d, %Y" }}</span>
                     <h2><a href="{{ post.url  | relative_url }}">{{ post.title }}</a></h2>
+                    <h4><span class="author-by">Posted by </span>{{ post.author }}</h4>
                 </header>
                 <a href="{{ post.url  | relative_url }}" class="image fit"><img src="{{ post.image }}" alt="" /></a>
                 <p>{{ post.excerpt }}</p>
